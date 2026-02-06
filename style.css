@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh; 
+    width: 100%; 
+    background-image: url('bckground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.profil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.profil img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profil h1{
+    color: white;
+    font-size: 2rem;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+    font-size: 0.7rem;
+}
+
+.social h1{
+    color: white;
+    font: 1.5rem;
+}
+
+.social a{
+    text-decoration: none;
+    color: black;
+}
+
+.sosmed{
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 7px;
+    padding: 3px;
+}
+
+.sosmed i{
+    position: absolute;
+    left: 8px;
+    font-size: 1.2rem;
+}
+
+.sosmed:hover{
+    background-color: rgb(83, 172, 172);
+    color: white;
+    transition: 0.7s;
+}
+
+.fontme{
+    font-family: "Spectral", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+}
+
+.bitter{
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
