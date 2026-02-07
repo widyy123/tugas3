@@ -5,7 +5,7 @@
 }
 
 body{
-    height: 100vh;
+    height: 50vh;
     background-image: url('bckground.jpg');
     background-size: cover;
     background-position: center;
@@ -55,4 +55,5 @@ body{
     color: white;
     transition: 1s;
 }
+
 
